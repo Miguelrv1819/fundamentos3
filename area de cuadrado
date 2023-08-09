@@ -1,0 +1,21 @@
+#include <iostream>
+
+using namespace std;
+
+int main ()
+{
+    
+    int lado, area;
+    cout<<"ingresar el lado ";
+    cin>>lado;
+    
+    
+    
+    area=lado*lado;
+    cout<<"El area de cuadrado es 49"<<area;
+    
+    
+    return 0;
+    }
+
+
