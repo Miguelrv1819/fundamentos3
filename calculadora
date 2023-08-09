@@ -1,0 +1,24 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float numero1, numero2, suma, resta, multiplicacion, division;
+    cout<<"ingrese numero 1 ";
+    cin>>numero1;
+    cout<<"ingrese numero 2 ";
+    cin>>numero2;
+    
+    suma=numero1+numero2;
+    resta=numero1-numero2;
+    multiplicacion=numero1*numero2;
+    division=numero1/numero2;
+   cout<<"suma "<<suma<<endl;
+   cout<<"resta "<<resta<<endl;
+   cout<<"multiplicacion "<<multiplicacion<<endl;
+   cout<<"division "<<division<<endl;
+   
+
+    return 0;
+}
