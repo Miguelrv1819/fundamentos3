@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float l, area, p;
+    cout<<"Ingresar el primer lado: ";
+    cin>>l;
+    
+    area=l*l;
+    
+    p=l+l+l+l;
+    
+    cout<<"El area del cuadrado es: "<<area<<endl;
+    cout<<"El perimetro del cuadrado es: "<<p<<endl;
+
+    return 0;
+}
